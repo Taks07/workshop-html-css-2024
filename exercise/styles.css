@@ -16,17 +16,15 @@ body {
     width: 280px;
 }
 
-.right {
-    width: 620px;
-}
-
 .friends-filter {
     text-align: center;
 }
 
 .contact-card {
     display: flex;
+    align-items: center;
     height: 120px;
+    padding-left: 40px;
 }
 
 .contact-card img {
@@ -34,3 +32,25 @@ body {
     height: 80px;
     border-radius: 50%;
 }
+
+.contact-card p {
+    margin-left: 30px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 620px;
+}
+
+.right img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+
+.phone-number {
+    font-weight: bold;
+}    
