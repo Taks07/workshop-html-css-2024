@@ -20,6 +20,12 @@ body {
     text-align: center;
 }
 
+.contact-cards {
+    margin-top: 10px;
+    height: 510px;
+    overflow-y: auto;
+}
+
 .contact-card {
     display: flex;
     align-items: center;
